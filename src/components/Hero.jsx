@@ -3,8 +3,8 @@ import React from 'react';
 const Hero = () => {
   return (
     // TODO: Replace bg-gray-900 with a background image
-    // e.g., style={{ backgroundImage: "url('/path/to/your/image.jpg')" }}
-    <div className="relative bg-gray-900 bg-cover bg-center text-white h-screen flex items-center justify-center">
+    // e.g., style={{ backgroundImage: "url('https://res.cloudinary.com/dpzlsrvzh/image/upload/v1774031761/home_pvguis.jpg')" }}
+    <div className="relative bg-cover bg-center text-white h-screen flex items-center justify-center" style={{ backgroundImage: "url('https://res.cloudinary.com/dpzlsrvzh/image/upload/v1774032386/home_jrvbrr.jpg')"}}>
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 text-center">
         <h1 className="text-6xl md:text-8xl font-bold tracking-wider">SIGMA</h1>

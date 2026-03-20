@@ -3,9 +3,9 @@ import "../index.css"
 
 const Footer = () => {
   return (
-    <footer id="contact" className="bg-linear-to-r from-[#a6a7a7] from-45% to-[#FFFFFF] py-20 px-4">
+    <footer id="contact" className="bg-linear-to-r from-[#bdbdbd] from-40% to-[#FFFFFF] py-20 px-4">
       {/* Añadimos min-h para que el flex tenga espacio que repartir */}
-      <div className="container mx-auto grid md:grid-cols-2 gap-16 min-h-[600px]">
+      <div className="container mx-auto grid md:grid-cols-2 gap-16 min-h-150">
         
         {/* Columna Izquierda: Usamos flex-col y justify-between para separar arriba de abajo */}
         <div className="text-white flex flex-col font-bebas tracking-wider">
@@ -82,7 +82,7 @@ const Footer = () => {
 
         {/* Columna Derecha: Formulario */}
         <div className="flex justify-end items-start">
-            <div className="w-full md:w-10/12 bg-[#4a6f8d] px-9 py-12 rounded-4xl shadow-lg font-bebas tracking-wide">
+            <div className="w-full md:w-8/12 bg-[#4a6f8d] px-9 py-12 rounded-4xl shadow-lg font-bebas tracking-wide">
             <h3 className="text-4xl mb-12 text-center text-white">DEJANOS TU CONSULTA</h3>
             <form className="flex flex-col gap-5">
                 <div className="flex flex-col gap-1">
@@ -98,7 +98,7 @@ const Footer = () => {
                 <input type="tel" id="phone" className="w-full p-3 border-none rounded-2xl bg-white" />
                 </div>
                 <div className="flex flex-col gap-1">
-                <label htmlFor="message" className="text-xl text-white">MENSAJE (ARQUITECTO, CONSTRUCTOR, PROPIETARIO)</label>
+                <label htmlFor="message" className="text-lg text-white">MENSAJE (ARQUITECTO, CONSTRUCTOR, PROPIETARIO)</label>
                 <textarea id="message" rows="4" className="w-full p-3 border-none rounded-2xl bg-white"></textarea>
                 </div>
                 <button type="submit" className="mt-4 text-2xl text-white self-start hover:opacity-80 transition-opacity">

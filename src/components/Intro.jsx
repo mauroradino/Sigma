@@ -15,9 +15,7 @@ const Intro = () => {
           </div>
           <div>
             {/* Placeholder for the steel frame structure image */}
-            <div className="bg-gray-300 h-80 w-full rounded-lg shadow-lg flex items-center justify-center">
-              <span className="text-gray-500">Placeholder Image</span>
-            </div>
+              <img src="https://res.cloudinary.com/dpzlsrvzh/image/upload/v1774032472/tercera_ett3wy.jpg" alt="" />
           </div>
         </div>
 
@@ -29,9 +27,7 @@ const Intro = () => {
 
         <div className="mt-16 flex justify-center">
           {/* Placeholder for the steel roll image */}
-          <div className="bg-gray-300 h-96 w-full max-w-4xl rounded-lg shadow-lg flex items-center justify-center">
-            <span className="text-gray-500">Placeholder Image</span>
-          </div>
+            <img className='md:w-6/12' src="https://res.cloudinary.com/dpzlsrvzh/image/upload/v1774031914/segunda_rljwzv.jpg" alt="" />
         </div>
       </div>
     </section>
